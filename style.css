@@ -169,6 +169,10 @@ html {
     padding: 0.8% 2.3%;
 }
 
+.hesder-navigation-mobile {
+    display: none;
+}
+
 .navigation-navbar--pill {
     color: #000;
     font-family: 'Gilroy', sans-serif;
@@ -230,6 +234,7 @@ html {
     font-family: 'Object Sans', sans-serif;
     font-weight: 800;
     letter-spacing: 4.2px;
+    text-transform: uppercase;
 }
 
 .header-description {
@@ -676,7 +681,7 @@ html {
     border-radius: 60px;
     /*background: linear-gradient(0deg, rgba(24, 24, 24, 0.97) 37%, rgba(250, 250, 250, 0) 74%);*/
     background: rgb(24, 24, 24);
-    background: linear-gradient(0deg, rgba(24, 24, 24, 1) 6%, rgba(250, 250, 250, 0) 51%);
+    background: linear-gradient(0deg, rgba(24, 24, 24, 1) 15%, rgba(250, 250, 250, 0) 61%);
     z-index: 2;
 }
 
@@ -838,7 +843,7 @@ html {
     opacity: 0;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1200px) {
     .header-title {
         font-size: 8rem;
     }
@@ -941,7 +946,173 @@ html {
         left: -14%;
         bottom: -54px;
     }
+}
 
+@media screen and (max-width: 1050px) {
+    .navigation-navbar {
+        display: none;
+    }
+
+    .navigation-links {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 10vw;
+    }
+
+    .header-description {
+        font-size: 3vw;
+    }
+
+    .clodchat {
+        font-size: 2vw;
+        padding: 30px;
+    }
+
+    .coursescards-cards {
+        display: block;
+    }
+
+    .coursescards-cards--card {
+        width: 80%;
+        border-radius: 20px;
+        padding: 2%;
+        margin: 20px auto;
+    }
+
+    .cadr-description--text {
+        font-size: 1.2rem;
+    }
+
+    .card-token p {
+        font-size: 1.2rem;
+    }
+
+    .club-content--title,
+    .teachers-content--title,
+    .invite-content--title {
+        font-size: 4vw;
+    }
+
+    .invite-content--title {
+        font-size: 3.5vw;
+    }
+
+    .profiles-name h3 {
+        font-size: 1.1rem;
+    }
+
+    .profiles-exp--text {
+        font-size: 0.95rem;
+    }
+
+    .education-title--val {
+        font-size: 0.9rem;
+    }
+
+    .club-content--description,
+    .teachers-content--text,
+    .invite-content--text {
+        font-size: 2.1vw;
+    }
+
+    .club-content--tokens {
+        width: 100%;
+    }
+
+    .invite-content--img {
+        position: relative;
+        left: -4%;
+        bottom: -35px;
+    }
+
+    .button--text {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .wrapper {
+        padding: 0;
+    }
+
+    .header-content--images {
+        display: none;
+    }
+
+    .header-navigation {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .header {
+        border-radius: 0 0 30px 30px;
+        padding: 3%;
+        padding-bottom: 5%;
+    }
+
+    .header-title {
+        font-size: 12vw;
+    }
+
+    .header-description {
+        font-size: 4vw;
+    }
+
+    .header-button--text {
+        font-size: 4vw;
+    }
+
+    .header-button--img {
+        width: 10vw;
+        height: 100%;
+    }
+
+    .coursescards,
+    .club,
+    .teachers {
+        border-radius: 30px;
+        border: none;
+    }
+
+    .coursescards-header {
+        margin: 0;
+        font-size: 6vw;
+        line-height: 100%;
+    }
+
+    .coursescards-cards--card {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .card-token p {
+        font-size: 1rem;
+    }
+
+    .cadr-description--title {
+        font-size: 1.2rem;
+    }
+
+    .cadr-description--text {
+        font-size: 1rem;
+    }
+
+    .club,
+    .teachers {
+        flex-direction: column-reverse;
+    }
+
+    .club-img,
+    .teachers-img {
+        width: 100%;
+        padding-bottom: 80%;
+        border-radius: 30px;
+    }
+
+    .teachers-content--img {
+        display: none;
+    }
 
 
 }
