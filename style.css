@@ -686,12 +686,13 @@ html {
 }
 
 .teachers-profiles--victoria {
-    background-image: url(src/img/shutterstock_1935859771\ 4.png);
+    background-image: url(src/img/t1.jpg);
     background-size: cover;
 }
 
 .teachers-profiles--alex {
-    background-image: url(src/img/shutterstock_1935859771\ 6.png);
+    background-image: url(src/img/t2.jpg);
+    background-position: 48% 0;
     background-size: cover;
 }
 
@@ -1112,6 +1113,54 @@ html {
 
     .teachers-content--img {
         display: none;
+    }
+
+    .club-content--description,
+    .teachers-content--text,
+    .invite-content--text {
+        font-size: 1rem;
+    }
+
+    .club-content--description,
+    .teachers-content--text,
+    .invite-content--text {
+        font-size: 1rem;
+    }
+
+    .teachers-profiles {
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 100%;
+        border-radius: 30px;
+        padding-top: 50%;
+        margin-bottom: 5%;
+    }
+
+    .profile:after {
+        border-radius: 30px;
+    }
+
+    .invite {
+        border-radius: 30px;
+    }
+
+    .invite-content {
+        border-radius: 30px;
+        padding: 5% 5% 10% 23%;
+        background-color: #000;
+        background-image: url(src/img/Group_b.svg);
+        background-repeat: no-repeat;
+    }
+
+    .invite-img,
+    .invite-content--img {
+        display: none;
+    }
+
+    .invite-content--title {
+        font-size: 1.2rem;
     }
 
 
