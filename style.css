@@ -169,7 +169,7 @@ html {
     padding: 0.8% 2.3%;
 }
 
-.hesder-navigation-mobile {
+.header-navigation-mobile {
     display: none;
 }
 
@@ -391,7 +391,7 @@ html {
 
 .coursescards-cards--card:hover {
     scale: 1.04;
-    box-shadow: 3px 3px 7px #000;
+    box-shadow: 3px 3px 7px #464545db;
     transition: 0.5s;
 }
 
@@ -505,7 +505,7 @@ html {
     border: 1px solid #FFF;
     border-radius: 30px;
     padding: 10px;
-    margin: 0 40% 0 0;
+    margin: 0 39% 0 0;
 }
 
 .card-button2 {
@@ -518,7 +518,7 @@ html {
 }
 
 .card-button--text {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -950,8 +950,12 @@ html {
 }
 
 @media screen and (max-width: 1050px) {
-    .navigation-navbar {
+    .header-navigation-large {
         display: none;
+    }
+
+    .header-navigation-mobile {
+        display: block;
     }
 
     .navigation-links {
@@ -1148,10 +1152,13 @@ html {
 
     .invite-content {
         border-radius: 30px;
-        padding: 5% 5% 10% 23%;
+        padding: 5% 5% 5% 37%;
         background-color: #000;
         background-image: url(src/img/Group_b.svg);
+        background-size: contain;
         background-repeat: no-repeat;
+        align-items: end;
+        text-align: right;
     }
 
     .invite-img,
