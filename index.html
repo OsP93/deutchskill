@@ -58,34 +58,28 @@
                         <div class="navigation-logo">
                             <a href="#header">
                                 <img src="src/img/Group.svg" alt="Logo_nav">
-                            </a>
+                            </a>                            
                         </div>
-                        <input class="side-menu" type="checkbox" id="side-menu" />
-                        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-                        <nav class="navigation-navbar">
-                            <ul class="navigation-navbar-mobile">
-                                <li><a href="#club" class="navigation-navbar--pill">О нас</a></li>
-                                <li><a href="#teachersblock" class="navigation-navbar--pill">Преподаватели</a></li>
-                                <li><a href="#cards" class="navigation-navbar--pill">Курсы</a></li>
-                                <li><a href="#inviteblock" class="navigation-navbar--pill">Контакты</a></li>
-                            </ul>
-                        </nav>
-                        <div class="navigation-links">
-                            <div class="navigation-links--socialbtn">
-                                <a href="#"><img src="src/ico/bxl_instagram.svg" alt="instagram_icon"></a>
+                        <nav class="navigation-navbar-mobile hidden-d">
+                            <a href="#club" class="navigation-navbar--pill">О нас</a></li>
+                            <a href="#teachersblock" class="navigation-navbar--pill">Преподаватели</a>
+                            <a href="#cards" class="navigation-navbar--pill">Курсы</a>
+                            <a href="#inviteblock" class="navigation-navbar--pill">Контакты</a>
+                        </nav>  
+                        <div class="navigation-mobile--buttons">
+                            <div class="navigation-mobile--burgerpill">
+                                <img src="src/ico/burger-menu.svg" alt="burger" class="burgerpill">
+                                <img src="src/ico/burger-menu_cross.svg" alt="cross" class="burgerpill-cross hidden-d">
                             </div>
-                            <div class="navigation-links--socialbtn">
-                                <a href="#"><img src="src/ico/bxl_tiktok.svg" alt="tiktok_icon"></a>
-                            </div>
-                        </div>
-                        <div class="navigation-lang">
-                            <div class="navigation-lang--current">
-                                <img src="src/ico/global.svg" alt="" class="navigation-lang--ico">
-                                <h3 class="navigation-lang--lang">RU</h3>
-                            </div>
-                            <div class="navigation-lang--dropdown">
-                                <a href="#" class="navigation-lang--lang">UK</a>
-                                <a href="#" class="navigation-lang--lang">DE</a>
+                            <div class="navigation-lang">
+                                <div class="navigation-lang--current">
+                                    <img src="src/ico/global.svg" alt="" class="navigation-lang--ico">
+                                    <h3 class="navigation-lang--lang">RU</h3>
+                                </div>
+                                <div class="navigation-lang--dropdown">
+                                    <a href="#" class="navigation-lang--lang">UK</a>
+                                    <a href="#" class="navigation-lang--lang">DE</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -370,6 +364,7 @@
         </section>-->
     </div>
     <script src="js/header_animation.js"></script>
+    <script src="js/mobile_menu.js"></script>
 </body>
 
 </html>
