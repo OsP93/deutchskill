@@ -879,6 +879,15 @@ html {
     color: #000;
 }
 
+.contact-form {
+    width: 100%;
+    display: flex;
+    float: left;
+    border-radius: 60px;
+    border: #000 1px solid;
+    margin-top: 3%;
+}
+
 .hidden {
     opacity: 0;
 }
